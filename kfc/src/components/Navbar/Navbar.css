@@ -1,0 +1,81 @@
+#navbar{
+    width: 100%;
+    margin: 0%;
+    height: 100px;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#logo{
+    margin-left: 100px;
+}
+#redline{
+    width: 50px;
+    height: 30px;
+    margin-left: -170px;
+}
+#menu{
+    padding-left: 150px;
+    padding-top: 30px;
+    font-family: sans-serif;
+    font-size: small;
+}
+#menu:hover{
+    text-decoration: underline;
+}
+#career{
+    padding-top: 30px;
+    padding-left: 30px;
+    font-family: sans-serif;
+    font-size: small;
+}
+#career:hover{
+    text-decoration: underline;
+}
+#about{
+    padding-top: 30px;
+    padding-left: 30px;
+    font-family: sans-serif;
+    font-size: small;
+}
+#about:hover{
+    text-decoration: underline;
+}
+#find{
+    padding-top: 30px;
+    padding-left: 30px;
+    font-family: sans-serif;
+    font-size: small;
+}
+#find:hover{
+    text-decoration: underline;
+}
+#order{
+    background-color: #e4002b;
+    border: 1px solid #e4002b;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-top: 30px;
+    margin-left: 350px;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#account{
+    width: 40px;
+    height: 40px;
+    margin-top: 25px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+#bag{
+    width: 40px;
+    height: 40px;
+    margin-top: 25px;
+    margin-left: 30px;
+    cursor: pointer;
+}
