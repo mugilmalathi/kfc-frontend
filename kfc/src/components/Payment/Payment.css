@@ -1,0 +1,8 @@
+#pay{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#pay>h1{
+    text-align: center;
+    font-family: 'Fira Sans Extra Condensed', sans-serif
+}

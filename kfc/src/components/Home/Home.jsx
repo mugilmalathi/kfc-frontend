@@ -9,12 +9,12 @@ export const Home = ()=>{
     return(
         <div id="home">
            <Carousel>
-                <div id='car1'>
-                    <img id='car-img' src="https://images.ctfassets.net/9tka4b3550oc/fc4ZkEOmImAJBQ7eMPHO7/660c545459ecb42139fa6c62af696d01/Side-Lovers.jpg?q=75&w=1680" />
-                </div>
                 <div id='car2'>
                     <video loop autoPlay muted src="https://videos.ctfassets.net/9tka4b3550oc/3eVt04hBZVfN6MVMzEv4Rt/26a3f084c23ab3484870f7d544550853/1920x1080_KFC_App-Hero-Asset_05.mp4?q=75&w=1680" type="video/mp4">
                     </video>
+                </div>
+                <div id='car1'>
+                    <img id='car-img' src="https://images.ctfassets.net/9tka4b3550oc/fc4ZkEOmImAJBQ7eMPHO7/660c545459ecb42139fa6c62af696d01/Side-Lovers.jpg?q=75&w=1680" />
                 </div>
                 <div id='car3'>
                     <img id='car-img' src="https://images.ctfassets.net/9tka4b3550oc/5oTs9jzHPhtVyJGNX9coGR/e314c31f5eef9f3c661959102d7cbd53/Mothersday_Desktop_HomeHero-PostPromo_2x.jpg?q=75&w=1680" />

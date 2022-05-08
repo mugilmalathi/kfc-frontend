@@ -15,7 +15,7 @@ export const Navbar = ()=>{
             <Link to="/"><h4 id="about">About</h4></Link> 
             <Link to="/" ><h4 id="find">Find A KFC</h4></Link>
             <Link to="/order"><button id="order">Start Order</button></Link>
-            <img id="account" src={account} alt="" />
+            <Link to="/signup"><img id="account" src={account} alt="" /></Link>
             <img id="bag" src={bag} alt="" />
 
         </div>

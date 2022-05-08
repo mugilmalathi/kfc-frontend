@@ -1,0 +1,54 @@
+#item{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 80px;
+}
+#item-left{
+    width: 60%;
+    height: 600px;
+    background-color: #f8f7f5;
+}
+#item-left>img{
+    width: 80%;
+    margin-left: 80px;
+}
+#item-right{
+    width: 30%;
+    height: 600px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+    border-radius: 10px;
+}
+#item-right>h1{
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+#item-right>p{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: gray;
+    font-family: sans-serif;
+}
+hr{
+    width: 80%;
+    margin: auto;
+}
+#payment{
+    width: 95%;
+    margin-left: 10px;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: 1px solid #e4002b;
+    background-color: #e4002b;
+    color: white;
+    font-size: large;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
