@@ -60,6 +60,85 @@ export const Home = ()=>{
 
             </div>
 
+            <h1 id='feature'>QUICK BITES</h1>
+
+            <div id='card1'>
+
+                <div id="card-left1">
+                    <div id='card-left-div'>
+                        <img id='card-left-div-img'  src="https://digitaleat.kfc.com/menus/image/bare/kfc-biscuit?q=75" alt="" />
+                    </div>
+                    <p id='card-left-p'>Buscuit</p>
+                    <p id='card-left-p'>calories: 300</p>
+                    <p id='card-left-p'>Set Location for pricing</p>
+                </div>
+
+                <div id='card-right1'>
+                    <div id='card-right-div'>
+                        <img id='card-right-div-img' src="https://digitaleat.kfc.com/menus/image/bare/kfc-AlcChLtl?q=75" alt="" />
+                    </div>
+                    <p id='card-right-p'>Chicken Little</p>
+                    <p id='card-right-p'>calories: 380-480</p>
+                    <p id='card-right-p'>Set Location for pricing</p>
+                </div>
+
+                <div id="card-left2">
+                    <div id='card-left-div'>
+                        <img id='card-left-div-img'  src="https://digitaleat.kfc.com/menus/image/bare/kfc-FamousBowl?q=75" alt="" />
+                    </div>
+                    <p id='card-left-p'>Famous Bowl</p>
+                    <p id='card-left-p'>calories: 420-560</p>
+                    <p id='card-left-p'>Set Location for pricing</p>
+                </div>
+
+                <div id='card-right2'>
+                    <div id='card-right-div'>
+                        <img id='card-right-div-img' src="https://digitaleat.kfc.com/menus/image/bare/kfc-IndFries?q=75" alt="" />
+                    </div>
+                    <p id='card-right-p'>Secret Recipe Fries</p>
+                    <p id='card-right-p'>calories: 300-520</p>
+                    <p id='card-right-p'>Set Location for pricing</p>
+                </div>
+
+            </div>
+
+            <div id='wemake'>
+
+                <div id='three'>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+
+                <p>OUR FOOD</p>
+                <h1>WE MAKE IT THE</h1>
+                <h1>HARD WAY</h1>
+                <h4>See what goes into making our world famous fried chicken.</h4>
+                <button>Learn More</button>
+
+                <div id='wemakeimg'>
+                  <img id='wemakeimg1' src="https://images.ctfassets.net/9tka4b3550oc/pUxlFVRTxLtL5kOkls4oR/79e616624a7269fa05b88538b8d5f305/herbs-badge.png" alt="" />
+                </div>
+
+                <div>
+                  <img id='wemakeimg2' src="https://images.ctfassets.net/9tka4b3550oc/1FQSRLVXt2Q1lvXXkOyW6U/f306561ef7bfc5ab7c84a739a46d3629/Food_09.png?q=75&w=1280" alt="" />
+                </div>
+
+            </div>
+
+            <div id='kendacky'>
+
+                <div id='kendacky-left'></div>
+                <div id='kendacky-right'>
+                    <div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                   
+                </div>
+            </div>
+            
         </div>
     )
 }
