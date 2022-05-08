@@ -54,11 +54,21 @@ export const Home = ()=>{
 
             <div id='video'>
                <video loop autoPlay muted src="https://videos.ctfassets.net/9tka4b3550oc/6dfcRcbEacDiiOabonCLsL/e30a82a829391e36cda9431693faaa6f/ZWAK12819H_Non-slated_MOS_HQ_optimized2.mp4?q=75&w=1680" type="video/mp4"></video>
+                
             </div>
 
             <div id='fries'>
-
+                <div id='fries-left'>
+                    <img src="https://images.ctfassets.net/9tka4b3550oc/6S3xJA6TQLP7vuh1C01QTe/df1849db52120e7f87ccf449242e06a2/Fries_Product_Card.png?q=75&w=640" alt="" />
+                </div>
+                <div id='fries-right'>
+                    <h1>YEP. WE HAVE</h1>
+                    <h1>FRIES NOW.</h1>
+                    <button>Start Your Order</button>
+                </div>
             </div>
+
+            
 
             <h1 id='feature'>QUICK BITES</h1>
 

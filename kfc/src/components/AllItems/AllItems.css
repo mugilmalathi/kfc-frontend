@@ -1,0 +1,34 @@
+#allitems{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    border: 1px solid red;
+}
+#allitems-left{
+    width: 30%;
+    height: 100%;
+    border: 1px solid indianred;
+}
+#allitems-left>img{
+    width: 100px;
+    height: 60px;
+    margin-left: 80px;
+}
+#allitems-left>h1{
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    padding-left: 90px;
+}
+#allitems-left>h4{
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    padding-left: 90px;
+}
+#allitems-left>h5{
+    font-family: sans-serif;
+    padding-left: 90px;
+    color: gray;
+}
+#allitems-right{
+    width: 70%;
+    height: 100%;
+    border: 1px solid indianred;
+}

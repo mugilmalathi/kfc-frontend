@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@500&display=swap');
 
+/* #home{
+    margin-top: -100px;
+} */
+/* #carousel{
+    position: absolute;
+    border: 1px solid indigo;
+} */
 #car1{
     width: 100%;
     height: 700px;
@@ -126,14 +133,84 @@
 }
 video{
     width: 100%;
+    
 }
 #fries{
     width: 60%;
     height: 500px;
     border-radius: 10px;
     margin: auto;
-    border: 1px solid red;
+    background-color: #f8f7f5;
     margin-bottom: 100px;
+    margin-top: -300px;
+    position: relative;
+    display: flex;
+}
+#fries-left{
+    width: 50%;
+}
+#fries-left>img{
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+#fries-left>img:hover{
+    animation: 2s spiral2 linear;
+}
+@keyframes spiral2{
+    0%{
+        transform: rotateX(0deg);
+    }
+    10%{
+        transform: rotateY(30deg);
+    }
+    20%{
+        transform: rotateX(45deg);
+    }
+    30%{
+        transform: rotateY(60deg);
+    }
+    40%{
+        transform: rotateX(90deg);
+    }
+    50%{
+        transform: rotateY(120deg);
+    }
+    60%{
+        transform: rotateX(150deg);
+    }
+    70%{
+        transform: rotateY(210deg);
+    }
+    80%{
+        transform: rotateX(240deg);
+    }
+    90%{
+        transform: rotateY(300deg);
+    }
+    100%{
+        transform: rotateX(360deg);
+    }
+}
+#fries-right{
+    width: 50%;
+    text-align: center;
+    padding-top: 150px;
+}
+#fries-right>button:hover{
+    background-color: #e35973;
+}
+#fries-right>button{
+    width: 150px;
+    height: 45px;
+    background-color: #e4002b;
+    color: white;
+    border: 1px solid #e4002b;
+    font-size: small;
+    font-weight: bold;
+    border-radius: 20px;
+    font-family: sans-serif;
+    cursor: pointer;
 }
 #card1{
     display: flex;
@@ -223,42 +300,86 @@ video{
     width: 400px;
     height: 400px;
     margin-left: 350px;
-    animation: 1s spiral linear;
+    
+}
+
+#wemakeimg1:hover{
+    animation: 3s spiral linear;
 }
 
 @keyframes spiral{
     0%{
-        transform: rotateX(45deg);
+        transform: rotateX(0deg);
     }
     10%{
-        transform: rotateX(45deg);
+        transform: rotateY(30deg);
     }
     20%{
-        transform: rotateY(90deg);
+        transform: rotateX(45deg);
     }
     30%{
-        transform: rotateX(45deg);
+        transform: rotateY(60deg);
     }
     40%{
-        transform: rotateZ(135deg);
+        transform: rotateX(90deg);
     }
     50%{
-        transform: rotateX(45deg);
+        transform: rotateY(120deg);
     }
     60%{
-        transform: rotateX(180deg);
+        transform: rotateX(150deg);
     }
     70%{
-        transform: rotateX(45deg);
+        transform: rotateY(210deg);
     }
     80%{
-        transform: rotateY(270deg);
+        transform: rotateX(240deg);
     }
     90%{
-        transform: rotateX(45deg);
+        transform: rotateY(300deg);
     }
     100%{
-        transform: rotateZ(360deg);
+        transform: rotateX(360deg);
+    }
+}
+
+#wemakeimg2:hover{
+    animation: 3s spiral1 linear;
+}
+
+@keyframes spiral1{
+    0%{
+        transform: rotateX(0deg);
+    }
+    10%{
+        transform: rotateY(30deg);
+    }
+    20%{
+        transform: rotateX(45deg);
+    }
+    30%{
+        transform: rotateY(60deg);
+    }
+    40%{
+        transform: rotateX(90deg);
+    }
+    50%{
+        transform: rotateY(120deg);
+    }
+    60%{
+        transform: rotateX(150deg);
+    }
+    70%{
+        transform: rotateY(210deg);
+    }
+    80%{
+        transform: rotateX(240deg);
+    }
+    90%{
+        transform: rotateY(300deg);
+    }
+    100%{
+        transform: rotateX(360deg);
     }
 }
 

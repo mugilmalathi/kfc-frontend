@@ -1,4 +1,5 @@
 import { Route, Routes } from "react-router"
+import { AllItems } from "../AllItems/AllItems.jsx"
 import { Black } from "../Black/Black.jsx"
 import { Footer } from "../Footer/Footer.jsx"
 import { Home } from "../Home/Home.jsx"
@@ -12,6 +13,7 @@ export const AllRoutes = ()=>{
             <Black />
             <Routes>
                 <Route path="/" element={<Home />} />
+                <Route path="/order" element={<AllItems />} />
             </Routes>
             <Footer />
         </div>
