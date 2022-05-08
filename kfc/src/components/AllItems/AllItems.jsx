@@ -1,7 +1,18 @@
 import "./AllItems.css"
 import { Link } from "react-router-dom"
+import { useEffect, useState } from "react"
+import axios from "axios";
 
 export const AllItems = ()=>{
+
+    const [list, setList] = useState([]);
+
+    useEffect(()=>{
+        axios.get("http://localhost:8080/items")
+        .then((res)=>{
+            setList(res.data);
+        })
+    }, [])
 
     return (
         <div id="allitems">
@@ -26,42 +37,17 @@ export const AllItems = ()=>{
             <div id="allitems-right">
                 <h1>FEATURED</h1>
                 <div id="allitems-grid">
-                    <div>
-                        <img id="allitems-grid-img" src="https://digitaleat.kfc.com/menus/image/bare/kfc-sidesloversCOBmeal?q=75" alt="" />
-                        <Link to="/item"><p>Side Lovers 8pc. Chicken Meal</p></Link>
-                        <p>calories: 2580-5640</p>
-                        <p>Set location for pricing.</p>
-                    </div>
-                    <div>
-                        <img src="https://digitaleat.kfc.com/menus/image/bare/kfc-sidesloversCOBmeal?q=75" alt="" />
-                        <p>Side Lovers 8pc. Chicken Meal</p>
-                        <p>calories: 2580-5640</p>
-                        <p>Set location for pricing.</p>
-                    </div>
-                    <div>
-                        <img src="https://digitaleat.kfc.com/menus/image/bare/kfc-sidesloversCOBmeal?q=75" alt="" />
-                        <p>Side Lovers 8pc. Chicken Meal</p>
-                        <p>calories: 2580-5640</p>
-                        <p>Set location for pricing.</p>
-                    </div>
-                    <div>
-                        <img src="https://digitaleat.kfc.com/menus/image/bare/kfc-sidesloversCOBmeal?q=75" alt="" />
-                        <p>Side Lovers 8pc. Chicken Meal</p>
-                        <p>calories: 2580-5640</p>
-                        <p>Set location for pricing.</p>
-                    </div>
-                    <div>
-                        <img src="https://digitaleat.kfc.com/menus/image/bare/kfc-sidesloversCOBmeal?q=75" alt="" />
-                        <p>Side Lovers 8pc. Chicken Meal</p>
-                        <p>calories: 2580-5640</p>
-                        <p>Set location for pricing.</p>
-                    </div>
-                    <div>
-                        <img src="https://digitaleat.kfc.com/menus/image/bare/kfc-sidesloversCOBmeal?q=75" alt="" />
-                        <p>Side Lovers 8pc. Chicken Meal</p>
-                        <p>calories: 2580-5640</p>
-                        <p>Set location for pricing.</p>
-                    </div>
+
+                    {
+                        list.map(e=>
+                            <div>
+                                <img id="allitems-grid-img" src={e.img} alt="" />
+                                <Link to="/item"><p>{e.title1}</p></Link>
+                                <p>{e.title2}</p>
+                                <p>{e.title3}</p>
+                            </div>
+                        )
+                    }
 
                 </div>
             </div>
